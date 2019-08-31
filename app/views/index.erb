@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+
+  <body>
+    <h1>"What's up"</h1>
+    <h1>"Here are all of the articles:"</h1>
+
+         <% @articles.each do |article| %>
+         <li><%= article.title %></a></li>
+         <li><%= article.content %></a></li>
+         <% end %>
+   
+  </body>
+</html>
